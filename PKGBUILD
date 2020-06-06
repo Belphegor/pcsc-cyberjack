@@ -14,7 +14,7 @@ conflicts=('ctapi-cyberjack')
 depends=('libusb' 'pcsclite')
 options=('!libtool' '!docs')
 source=("http://support.reiner-sct.de/downloads/LINUX/V${pkgver}/pcsc-cyberjack-${_pkgver}.tar.bz2"
-	"${pkgname}-${pkgver}-large-buffer.patch::https://forum.reiner-sct.com/applications/core/interface/file/attachment.php?id=233")
+	"${pkgname}-${pkgver}-large-buffer.patch")
 sha256sums=('5cd78f527596f2905500b210d066ece62a8ab36a0d4d3677463805f8f4d3aa0c'
 	'22a54a0e0a0a31e999f14e3f28597f53820f31b500b25c8be4785c76d1241821')
 
